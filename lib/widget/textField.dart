@@ -39,6 +39,7 @@ class txtForm extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: new TextFormField(
+        autofocus: false,
         textInputAction: action,
         onSaved: onSave,
         onChanged: onCheng,
